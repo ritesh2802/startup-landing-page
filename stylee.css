@@ -1,0 +1,44 @@
+  
+  body,html
+      {
+            background: url(lap.jpg) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+          
+      }
+      
+    h1{
+       text-transform: uppercase;
+       color:tomato;
+   }
+   hr{
+       border-color: tomato;
+       border-width:3px;
+       max-width:65px;
+       
+   }
+
+   .btn{
+       font-weight: 700;
+       text-transform: uppercase;
+   }
+   .btn-primary{
+       background-color :tomato;
+       border-radius: 300px;
+       border-color: tomato;
+   }
+   .btn-primary:hover{
+      
+       background-color: rgb(150, 50, 33);
+       border-color:rgb(150, 50, 33);
+       border-width:3px;
+
+   }
+   .btn-xl{
+    padding: .75rem 1rem;
+   }
+   .buffer{
+       height:320px;
+   }
